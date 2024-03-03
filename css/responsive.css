@@ -1,0 +1,698 @@
+
+                /* NAVBAR */
+                
+@media(min-width: 320px) and (max-width: 800px){
+
+    nav{
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+    } 
+
+    #MyMenu ul li a{
+        text-align: center;
+        transition: 0.32s ease;
+    }
+
+    #MyMenu ul li a:hover{
+        background-color: #f0ededb6;
+    }
+
+    #MyMenu ul li a::after{
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(0);
+   }
+
+}
+
+                /* BANNER */
+
+@media (max-width: 991px){
+
+    #banner{
+        padding-bottom: 0;
+      }
+
+    #banner .banner_img img{
+        max-width: 100%;
+    }
+}
+
+                /* BANNER CONTENT*/
+
+@media (max-width: 991px){
+
+    #banner .banner_content h4{
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 23px;
+        padding-bottom: 5px;
+    }
+
+    #banner .banner_content h1{
+        font-size: 34px;
+        line-height: 44px;
+        padding-bottom: 15px;
+    }
+
+    #banner .banner_content .lorem{
+        font-size: 15px;
+        line-height: 28px;
+        padding-bottom: 25px;
+    }
+
+                /* Button*/
+
+    #banner .banner_content .button{
+        font-size: 12px;
+        line-height: 18px;
+        border-radius: 10px;
+        padding: 9px 20px;
+    }
+
+    #banner .banner_content .button.download{
+        font-size: 10px;
+        line-height: 18px;
+        padding: 6px 10px;
+    }
+
+                /* Socials */
+
+    #banner .socials p{
+        font-size: 12px;
+        line-height: 29px;
+    }
+
+    #banner .socials ul li{
+        font-size: 14px;
+        width: 32px;
+        height: 33px;
+        margin: 0 5px;
+    }
+}
+
+                /* ABOUT PAGE*/
+
+@media (min-width: 320px) and (max-width: 800px){
+
+    #about_page .about_content{
+        margin-top: 40px;
+    }
+
+        /* ASHIKURS IMG BELLOW */
+    #about_page .about_img img{
+        max-width: 100%;
+        transform: scaleX(-1);
+    }
+
+    #about_page .about_content h2{
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    #about_page .about_content p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    #about_page .about_content .button{
+        font-size: 14px;
+        line-height: 25px;
+        padding: 11px 20px;
+        border-radius: 18px;
+    }
+
+    #about_page .container .circle img{
+        position: absolute;
+        right: -15px !important;
+        top: -26px;
+        transform: scale(-0.5);
+    }
+}
+
+                /* SERVICES PAGE */
+
+@media (min-width: 320px) and (max-width: 800px){
+
+    #service_page{
+        margin: 75px 0 85px 0;
+      }
+
+    #service_page .service_card{
+        margin-bottom: 15px;
+        padding: 20px 20px 30px 20px;
+    }
+
+    #service_page .service_card .service_img img{
+        width: 43px;
+        height: 45px;
+        margin: 0 0 10px 20px 0;
+        text-align: center;
+    }
+
+    #service_page .service_card .services_text h5{
+        font-size: 14px;
+        line-height: 25px;
+        text-align: left;
+        margin-bottom: 3px;
+    }
+
+    #service_page .service_card .services_text p{
+        font-size: 12px;
+        line-height: 21px;
+        text-align: left;
+    }
+
+}
+
+                /* BRANDING PAGE */
+
+@media (min-width: 320px) and (max-width: 800px){
+
+    #branding_page .brand_img img{
+        max-width: 100%;
+    }
+
+    #branding_page .brand_text{
+        margin: 27px 0 10px 0;
+    }
+
+    #branding_page .shape img{
+        position: absolute;
+        right: 30px;
+        top: -35px;
+        transform: scale(0.6);
+    }
+
+    #branding_page .brand_text{
+        margin: 27px 0 10px 0;
+    }
+
+    #branding_page .brand_text h2{
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    #branding_page .brand_text p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+}
+
+                /* HELP PAGE */
+
+@media (min-width: 320px) and (max-width: 800px){
+
+    #help_page{
+        margin: 50px 0;
+      }
+
+    .help_card .col-4{
+        transform: scale(0.9);
+    }
+
+    .help_text h2{
+        color: var(--generalFontColor);
+        font-family: var(--secondaryFont);
+        font-size: 24px;
+        line-height: 31px;
+        text-align: left;
+    }
+
+    .help_text p{
+        color: var(--greyFontColor);
+        font-family: var(--primaryFont);
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: left;
+    }
+
+    .help_text .numbers h2{
+        font-family: var(--secondaryFont);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 31px;
+        text-align: left;
+        margin-bottom: 3px;
+    }
+      
+    .help_text .numbers p{
+        font-family: var(--primaryFont);
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+    }
+
+    .help_text .col-4,
+    .help_text .col-8{
+        padding: 0;
+    }
+
+    .help_text .numbers{
+        margin: 24px 0;
+        margin-bottom: 28px;
+    }
+
+    .help_card{
+        margin: 11px 0;
+        padding: 15px 26px;
+        border-radius: 20px;
+    }
+
+    .help_card .text h5{
+        font-family: var(--primaryFont);
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 27px;
+    }
+
+    .help_card .text p{
+        font-family: var(--primaryFont);
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+}
+
+                /* EXPERIENCE PAGE */
+
+@media (min-width: 320px) and (max-width: 800px){
+
+    #experience_page h2{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 31px;
+        margin-bottom: 40px;
+    }
+
+    .timeline h5{
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+    .timeline .year p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .timeline .prof p{
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .timeline .year{
+        border: none;
+        padding: 0 20px;
+        padding-bottom: 20px;
+      }
+    
+    .timeline .prof{
+        padding: 0 20px;
+        padding-bottom: 20px;
+    }
+
+    .timeline .year::after{
+        width: 23px;
+        height: 23px;
+        border: 1.5px dashed #7A7A7A;
+        left: -9px;
+        right: auto;
+      }
+    
+    .timeline .year::before{
+        width: 11px;
+        height: 11px;
+        top: 7px;
+        left: -3px;
+        right: auto;
+    }
+
+    .timeline{
+        border-left: 1.5px dashed #7A7A7A;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+}
+
+                /* EXPERT PAGE */
+
+@media (min-width: 320px) and (max-width: 800px){
+
+    #expertise_page{
+        margin: 90px 0 0 0;
+    }
+
+    .expertise_text h2{
+        margin-bottom: 35px;
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .expertise_text p{
+        color: var(--greyFontColor);
+        font-family: var(--primaryFont);
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-top: 17px;
+    }
+
+    .expertise_text .button{
+        transform: scale(0);
+        visibility: none;
+        opacity: 0;
+        margin-top: 0;
+    }
+
+    .expertise_skills  ul li button{
+        font-size: 16px;
+        line-height: 29px;
+        padding: 12px 50px;
+    }
+
+    .expertise_skills  ul li button.active{
+        border-radius: 15px !important;
+    }
+
+    .skill_card{
+        margin: 56px 0;
+    }
+
+    .skill_card h6{
+        margin-bottom: 8px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .skill_card .progress_bar{
+        max-width: 343px;
+        height: 4px;
+    }
+
+    .skill_card .progress_bar .progress{
+        max-width: 309px;
+        height: 4px;
+    }
+
+    .skill_card .progress_bar span{
+        font-size: 14px;
+        line-height: 25px;
+        top: -30px;
+        transform: translateX(-30px);
+    }
+
+    .expertise_skills #education img{
+        max-width: 200px;
+        margin: 5% 20%;
+    }
+}
+
+                /* MY SERVICES PAGE */
+
+@media (min-width: 320px) and (max-width: 1000px){
+
+    #myservices_page{
+        padding: 35px 0 40px 0;
+    }
+
+    #myservices_page h2{
+        font-size: 24px;
+        line-height: 31px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    #myservices_page .heading p{
+        width: 343px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 23px;
+        text-align: left;
+        margin: auto;
+        margin-bottom: 45px;
+    }
+
+    .design_card .deg_text h6{
+        color: var(--generalFontColor);
+        font-size: 15px;
+        line-height: 27px;
+        text-align: left;
+        margin: 0;
+        margin-bottom: 9px;
+    }
+
+    .design_card p{
+        font-size: 13px;
+        line-height: 23px;
+        text-align: left;
+    }
+
+    .myservices .design_card{
+        width: 343px;
+        text-align: left;
+        padding: 20px;
+        margin: auto;
+        margin-bottom: 15px;
+    } 
+
+    .myservices .design_card .deg_img img{
+        width: 54px;
+        padding: 0;
+    }
+
+    .myservices .design_card .deg_text{
+        padding: 0;
+    }
+
+    .design_card:hover h6,
+    .design_card:hover p{
+        color: white;
+    }
+
+    .myservices .design_card:hover{
+        transform: scale(1);
+    }
+}
+
+                /* FEEDBACK PAGE */
+
+@media (min-width: 320px) and (max-width: 800px){
+
+    #feedback_page{
+        padding: 51px 0 45px 0;
+    }
+
+    #feedback_page .heading h2{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    #feedback_page .heading p{
+        font-size: 13px;
+        line-height: 23px;
+        max-width: 343px;
+        margin-bottom: 30px;
+    }
+
+
+    .feedback .feedback_img img{
+        width: 100%;
+        max-width: 256px;
+        margin: 0 10%;
+    }
+
+    .feedback .feedback_text p{
+        font-size: 15px;
+        line-height: 27px;
+        max-width: 343px;
+        margin-top: 19px;
+        margin-bottom: 13px;
+    }
+
+    .feedback .feedback_text span h4{
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .feedback .feedback_text span p{
+        font-size: 12px;
+        line-height: 24px;
+        margin: 0 10.5%;
+    }
+}
+
+                /* MY BLOG PAGE */
+
+@media (min-width: 320px) and (max-width: 830px){
+
+    #blog_page{
+        padding: 47px 0 70px 0;
+    }
+      
+    #blog_page .heading h2{
+        font-size: 24px;
+        line-height: 32px;
+        text-align: left;
+        margin-bottom: 42px;
+    }
+
+    .my_blogs .blogcard{
+        margin-bottom: 20px;
+    }
+      
+    .my_blogs .blogcard .blogcard_img img{
+        width: 163px;
+        max-width: 100%;
+    }
+
+    .my_blogs .blogcard .blogcard_text .date_name p{
+        font-size: 10px;
+        line-height: 19px;
+        text-align: left;
+    }
+      
+    .my_blogs .blogcard .blogcard_text .date_name span{
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 19px;
+        text-align: left;
+        margin-right: 5%;
+    }
+      
+    .blogcard .blogcard_text h3{
+        margin: 6px 0 27px 0;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+      
+    .blogcard .blogcard_text a{
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 23px;
+    }
+      
+    .blogcard .blogcard_text a svg{
+        width: 15px;
+        height: 15px;
+    }
+}
+
+                /* NEWSLETTER PAGE */
+
+@media (min-width: 320px) and (max-width: 800px){
+
+    #newsletter_page .container{
+        padding: 30px 40px;
+    }
+
+    .news_text h4{
+        font-size: 12px;
+        line-height: 24px;
+        font-weight: 500;
+    }
+      
+    .news_text h3{
+        font-size: 20px;
+        line-height: 40px;
+    }
+      
+    .news_text h5{
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .news_box input.email{
+        width: 267px;
+        height: 45px;
+        position: relative;
+    }
+
+    .news_box button{
+        width: 76px;
+        height: 45px;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 24px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        position: absolute;
+        right: 0;
+    }
+
+
+
+
+
+}
+
+                /* FOOTER PAGE */
+
+@media (min-width: 320px) and (max-width: 800px){
+
+    #footer_page{
+        padding: 29px 16px 57px 17px;
+        margin-top: 60px;
+    }
+
+    .footer .logo img{
+        width: 114px;
+        margin-bottom: 17px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .footer .footer_text h6{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 36px;
+    }
+
+    .footer .footer_text p{
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .footer .last_col .talk_btn{
+          left: 0;
+          right: auto;
+          padding: 8px 11px 8.5px 17px;
+          text-align: right;
+          font-size: 10px;
+          font-weight: 600;
+          line-height: 18px;
+          border-radius: 10px;
+          margin-top: 25px;
+          margin-left: 10px;
+    }
+
+    .contact .call p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .contacts p.lavel{
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 23px;
+    }
+
+    .contacts a{
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .contacts .col-lg-4 ul li{
+        margin: 0 3px;
+    }
+    
+    .contacts .col-lg-4 ul li a{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+    }
+
+}
+
